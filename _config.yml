@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+owner_name: chinmayp79
+profile_name: Chinmay P.
+gems:
+  - jemoji
