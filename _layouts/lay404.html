@@ -19,9 +19,9 @@
 
     <section class="main-content">
         <canvas id="ArtCanvas"></canvas>
-        <script type="text/javascript" src="../JavaScript/jquery.js"></script>
-        <script type="text/javascript" src="../JavaScript/alphabet.js"></script>
-        <script type="text/javascript" src="../JavaScript/bubble.js"></script>
+        <script type="text/javascript" src="JavaScript/jquery.js"></script>
+        <script type="text/javascript" src="JavaScript/alphabet.js"></script>
+        <script type="text/javascript" src="JavaScript/bubble.js"></script>
         <script type="text/javascript">
             var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0];
             var myCanvasWidth=w.innerWidth||e.clientWidth||g.clientWidth;
@@ -36,7 +36,7 @@
             var bubbleText="# 404 Err0r !";
             canvas=$("#ArtCanvas");
             bubbleShape="circle";
-            myMultiplier=myCanvasWidth*0.001;
+            bubbleMultiplier=myCanvasWidth*0.001;
             drawName(bubbleText,letterColors);
             bounceBubbles();
         </script>

@@ -9,7 +9,4 @@ Wel=Come !!!
    
 `Wel-Come` my **IdIoT** , To the *Brave* Land of **IdIoT**'s.   
     
-`EnJoY` U'R Stay ...    
-   
-   
-### By [Chinmay P.](https://github.com/chinmayp79 "Chinmay P.") ###   
+`EnJoY` U'R Stay ...     

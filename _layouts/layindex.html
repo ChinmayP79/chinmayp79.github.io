@@ -16,17 +16,12 @@
       <h1 class="project-name">{{ page.title }}</h1>
       <h2 class="project-tagline">by {{ site.profile_name }} [{{ site.owner_name }}]</h2>
     </section>
-
+ 
     <section class="main-content">
-      {{ content }}
-    </section>
-    
-    <section class="main-content">
-        <hr>
         <canvas id="ArtCanvas"></canvas>
-        <script type="text/javascript" src="../JavaScript/jquery.js"></script>
-        <script type="text/javascript" src="../JavaScript/alphabet.js"></script>
-        <script type="text/javascript" src="../JavaScript/bubble.js"></script>
+        <script type="text/javascript" src="JavaScript/jquery.js"></script>
+        <script type="text/javascript" src="JavaScript/alphabet.js"></script>
+        <script type="text/javascript" src="JavaScript/bubble.js"></script>
         <script type="text/javascript">
             var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0];
             var myCanvasWidth=w.innerWidth||e.clientWidth||g.clientWidth;
@@ -41,13 +36,17 @@
             var bubbleText="Wel=Come !";
             canvas=$("#ArtCanvas");
             bubbleShape="circle";
-            myMultiplier=myCanvasWidth*0.001;
+            bubbleMultiplier=myCanvasWidth*0.001;
             drawName(bubbleText,letterColors);
             bounceBubbles();
         </script>
         <hr>
     </section>
 
+    <section class="main-content">
+      {{ content }}
+    </section>
+   
     <footer class="site-footer">
         <span class="site-footer-owner">
             <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.profile_name }} [{{ site.owner_name }}]</a>.
